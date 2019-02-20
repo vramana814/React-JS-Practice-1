@@ -7,7 +7,7 @@ export default class Evenorodd extends Component {
         Number: 10
     }
     evenOrOdd(n){
-        if (n%2 == 0){
+        if (n%2 === 0){
             return <h2>Even Number</h2>
         }
         else{

@@ -19,6 +19,7 @@ import Naturalnumbers from './Components/Naturalnumbers';
 import EligibleforVoting from './Components/Eligileforvotitng';
 import Ageandpercentage from './Components/Ageandpercentage';
 import Evenorodd from './Components/Evenorodd';
+import Vowel from './Components/Vowel';
 
 
 class App extends Component {
@@ -41,6 +42,7 @@ class App extends Component {
         <EligibleforVoting></EligibleforVoting>
         <Ageandpercentage></Ageandpercentage>
         <Evenorodd></Evenorodd>
+        <Vowel></Vowel>
       </div>
     );
   }

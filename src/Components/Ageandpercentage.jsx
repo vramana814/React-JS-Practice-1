@@ -16,6 +16,7 @@ export default class Ageandpercentage extends Component {
         }
     }
   render() {
+    
       var val1 = this.Ageandpercentage(this.state.age,this.state.percentage);
     return (
       <div id = "Check For Eligibility">
