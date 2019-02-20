@@ -21,6 +21,7 @@ import Ageandpercentage from './Components/Ageandpercentage';
 import Evenorodd from './Components/Evenorodd';
 import Vowel from './Components/Vowel';
 import BiggestNumber from './Components/BiggestNumber';
+import TwoNumbers from './Components/TwoNumbers';
 
 
 class App extends Component {
@@ -45,6 +46,7 @@ class App extends Component {
         <Evenorodd></Evenorodd>
         <Vowel></Vowel>        
         <BiggestNumber></BiggestNumber>
+        <TwoNumbers></TwoNumbers>
       </div>
     );
   }
