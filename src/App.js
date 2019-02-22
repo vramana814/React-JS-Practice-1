@@ -22,12 +22,15 @@ import Evenorodd from './Components/Evenorodd';
 import Vowel from './Components/Vowel';
 import BiggestNumber from './Components/BiggestNumber';
 import TwoNumbers from './Components/TwoNumbers';
+import Ascending from './Components/Ascending';
+import Leapyear from './Components/Leapyear';
+//import Checknumber from './Components/Checknumber';
 
 
 class App extends Component {
   render() {
     return (
-      <div id = "Header" className="App">
+      <div id = "Header" className="App" style={{paddingBottom:30}}>
         <AreaOfRectangle></AreaOfRectangle>
         <TotalSalary></TotalSalary>
         <AreaOfRightAngledTraiangle></AreaOfRightAngledTraiangle>
@@ -47,6 +50,9 @@ class App extends Component {
         <Vowel></Vowel>        
         <BiggestNumber></BiggestNumber>
         <TwoNumbers></TwoNumbers>
+        <Leapyear></Leapyear>
+        <Ascending></Ascending>
+        
       </div>
     );
   }

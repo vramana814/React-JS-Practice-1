@@ -9,7 +9,7 @@ export default class Naturalnumbers extends Component {
            Total += i;
             
         }
-        return <h2>Sum Of First 50 natural numbers are : {Total}</h2>;
+        return <p>Sum Of First 50 natural numbers are : {Total}</p>;
     }
   render() {
 

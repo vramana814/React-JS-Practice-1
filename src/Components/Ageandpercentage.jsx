@@ -9,10 +9,10 @@ export default class Ageandpercentage extends Component {
     }
     Ageandpercentage(a,p){
         if (a<=25 && p>=75){
-            return <h2>Qualified</h2>
+            return <p>Qualified</p>
         }
         else{
-            return <h2>Not Qualified</h2>
+            return <p>Not Qualified</p>
         }
     }
   render() {

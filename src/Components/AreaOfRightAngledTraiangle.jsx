@@ -9,7 +9,7 @@ export default class AreaOfRightAngledTraiangle extends Component {
     }
     Area_Of_Rightangled_Traiangle(h,w){
         var area = h * w/2;
-        return <h2> Area of Right Angled Triangle is : {area}</h2>
+        return <p> Area of Right Angled Triangle is : {area}</p>
     }
   render() {
       var val1 = this.Area_Of_Rightangled_Traiangle(this.state.height,this.state.width);

@@ -8,7 +8,7 @@ export default class AreaOfCircle extends Component {
     }
     areaOfCircle(r){
         var area = Math.PI * Math.pow(r,2);
-        return <h2>Area of Circle is : {area}</h2>
+        return <p>Area of Circle is : {area}</p>
     }
   render() {
       var val1 = this.areaOfCircle(this.state.radius);

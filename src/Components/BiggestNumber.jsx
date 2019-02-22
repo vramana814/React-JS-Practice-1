@@ -10,14 +10,14 @@ export default class BiggestNumber extends Component {
     }
         largest(n1,n2,n3){
             if (n1>n2 && n1>n3){
-                return <h2>num1 is greater  and value :{n1}</h2>
+                return <p>num1 is greater  and value :{n1}</p>
             }
             else if (n2>n1 && n2>n3){
             
-                return <h2>num2 is greater  and value :{n2}</h2>
+                return <p>num2 is greater  and value :{n2}</p>
             }
             else if (n3>n1 && n3>n2){
-                return <h2>num3 greater and value :{n3}</h2>
+                return <p>num3 greater and value :{n3}</p>
             }
         }
         

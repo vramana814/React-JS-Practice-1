@@ -10,7 +10,7 @@ export default class TotalSalary extends Component {
         var dearnessallowancnce = 0.5 * this.state.basicsalary;
         var houserentallowancce = 0.3 * this.state.basicsalary;
         var totalsalary = dearnessallowancnce + houserentallowancce + this.state.basicsalary;
-        return <h2>Total Salary is : {totalsalary}</h2>
+        return <p>Total Salary is : {totalsalary}</p>
     }
     
   render() {

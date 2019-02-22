@@ -8,7 +8,7 @@ export default class AreaOfEquilateralTraingle extends Component {
     }
     Area_Of_Equilateral_Traingle(s){
         var area = Math.sqrt(3)/4 * Math.pow(s,2);
-        return <h2>Area of Equilateral Traingle is : {area}</h2>
+        return <p>Area of Equilateral Traingle is : {area}</p>
     }
   render() {
       var val1 = this.Area_Of_Equilateral_Traingle(this.state.side);

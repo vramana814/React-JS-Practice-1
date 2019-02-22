@@ -9,10 +9,10 @@ export default class Eligileforvotitng extends Component {
     }
     checkForVoting(age){
         if (age>=20){
-            return <h2>Eligible for Voting</h2>
+            return <p>Eligible for Voting</p>
         }
         else{
-            return <h2>Not Eligible for Voting</h2>
+            return <p>Not Eligible for Voting</p>
         }
 
     }

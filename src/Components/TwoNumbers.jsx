@@ -10,13 +10,13 @@ export default class TwoNumbers extends Component {
   }
   greaterNumber(fn,sn){
     if (fn>sn){
-      return <h2>First Number is Greater : {fn}</h2>
+      return <p>First Number is Greater : {fn}</p>
     }
     else if (sn>fn){
-      return <h2>Second Number is Greater : {sn}</h2>
+      return <p>Second Number is Greater : {sn}</p>
     }
     else if (fn === sn){
-      return <h2>Both the Numbers are equal</h2>
+      return <p>Both the Numbers are equal</p>
     }
   }
   render() {

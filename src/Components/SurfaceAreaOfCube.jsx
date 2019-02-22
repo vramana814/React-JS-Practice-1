@@ -8,7 +8,7 @@ export default class SurfaceAreaOfCube extends Component {
     }
     Surface_Area_Cube(s){
        var surfacearea = 6 * Math.pow(s,2)
-        return <h2>Surface Area of Cube is : {surfacearea}</h2>
+        return <p>Surface Area of Cube is : {surfacearea}</p>
     }
   render() {
       var val1 = this.Surface_Area_Cube(this.state.side);

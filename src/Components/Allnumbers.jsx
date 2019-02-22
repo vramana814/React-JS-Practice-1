@@ -9,7 +9,7 @@ export default class Allnumbers extends Component {
     increment(){
         var lst=[];
         for (let count = 0; count<=10; count++){
-            lst.push( <h2>All numbers between 1 and 10 are : {count}</h2>)
+            lst.push( <p key={count}>All numbers between 1 and 10 are : {count}</p>)
         }
         return lst
     }

@@ -8,7 +8,7 @@ export default class PerimeterOfCircle extends Component {
     }
     perimeterOfCircle(r){
         var perimeter = 2 * Math.PI * r;
-        return <h2>Perimeter of Circle is : {perimeter}</h2>
+        return <p>Perimeter of Circle is : {perimeter}</p>
     }
   render() {
       var val1 = this.perimeterOfCircle(this.state.radius);

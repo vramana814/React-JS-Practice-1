@@ -9,7 +9,7 @@ export default class VolumeOfCone extends Component {
     }
     volumeOfCone(r,h){
         var volume = Math.PI * Math.pow(r,2) * h/3;
-        return <h2>Volume of Cone is : {volume}</h2>
+        return <p>Volume of Cone is : {volume}</p>
     }
   render() {
       var val1 = this.volumeOfCone(this.state.radius,this.state.height);

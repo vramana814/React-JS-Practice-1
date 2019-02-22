@@ -9,7 +9,7 @@ export default class AreaOfRectangle extends Component {
   }
   getarea (s,b){
     var area = s * b;
-     return <h2>Area of Rectangle is: {area}</h2>
+     return <p>Area of Rectangle is: {area}</p>
   }
   
   render() {
