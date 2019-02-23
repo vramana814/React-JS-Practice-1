@@ -24,7 +24,7 @@ import BiggestNumber from './Components/BiggestNumber';
 import TwoNumbers from './Components/TwoNumbers';
 import Ascending from './Components/Ascending';
 import Leapyear from './Components/Leapyear';
-//import Checknumber from './Components/Checknumber';
+import SquareofNumber from './Components/SquareofNumber';
 
 
 class App extends Component {
@@ -52,6 +52,7 @@ class App extends Component {
         <TwoNumbers></TwoNumbers>
         <Leapyear></Leapyear>
         <Ascending></Ascending>
+        <SquareofNumber></SquareofNumber>
         
       </div>
     );
