@@ -9,12 +9,10 @@ export default class AmountinRupees extends Component {
     }
     amountChange(e){
         console.log(e.target.value)
-        if (e.target.value >= 300){
+        e.target.value >= 300?
             this.setState({statement : 'Idly,Vada,Dosa and Puri followed by glass of water'})
-        }
-        else {
+        :
             this.setState({statement : 'Glass of Water'})
-        }
     }
   render() {
     return (
