@@ -25,6 +25,7 @@ import TwoNumbers from './Components/TwoNumbers';
 import Ascending from './Components/Ascending';
 import Leapyear from './Components/Leapyear';
 import SquareofNumber from './Components/SquareofNumber';
+import AmountinRupees from './Components/AmountinRupees';
 
 
 class App extends Component {
@@ -53,6 +54,7 @@ class App extends Component {
         <Leapyear></Leapyear>
         <Ascending></Ascending>
         <SquareofNumber></SquareofNumber>
+        <AmountinRupees></AmountinRupees>
         
       </div>
     );
